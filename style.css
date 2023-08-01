@@ -1,0 +1,152 @@
+header {
+  margin: 0px;
+}
+header .container .row {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+header .container .row p {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+header .container .row button {
+  border: 1px red solid;
+  border-radius: 40px;
+  display: flex;
+  justify-content: end;
+}
+header .container .row form input {
+  border-radius: 40px;
+}
+header section {
+  background-color: rgb(241, 60, 110);
+  height: auto;
+}
+header section .container .row h1 {
+  color: white;
+}
+header section .container .row p {
+  color: white;
+  font-size: 24px;
+}
+header section .container .row img {
+  width: 584px auto;
+  height: 584px auto;
+}
+header section .container .row button {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(241, 60, 110);
+  color: white;
+  border: 1px white solid;
+}
+
+main {
+  background-color: rgb(234, 230, 230);
+  height: auto;
+}
+main .container .row #minikreslo {
+  background-color: white;
+  border: 10px rgb(234, 230, 230) solid;
+}
+main .container .row #minikreslo button {
+  margin-bottom: 20px;
+}
+main .container .row h2 {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+main .container .row h3 {
+  display: flex;
+  justify-content: center;
+}
+main .container .row p {
+  display: flex;
+  justify-content: center;
+}
+main .container .row button {
+  background-color: rgb(241, 60, 110);
+  color: white;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+main .container .row img {
+  margin-top: 20px;
+}
+main #main_bottom1 {
+  margin-top: 76px;
+  margin-bottom: 76px;
+}
+main #main_bottom1 .container .row #main_bottom1_section1 {
+  background-color: rgb(241, 60, 110);
+  padding: 36px;
+  color: white;
+  border: 10px rgb(234, 230, 230) solid;
+}
+main #main_bottom1 .container .row #main_bottom1_section1 form input {
+  border-radius: 40px;
+}
+main #main_bottom1 .container .row #main_bottom1_section2 {
+  background-color: rgb(241, 60, 110);
+  padding: 36px;
+  color: white;
+  border: 10px rgb(234, 230, 230) solid;
+}
+main #main_bottom2 .container .row {
+  background-color: white;
+}
+main #main_bottom2 .container .row #impuls_section {
+  display: flex;
+  justify-content: center;
+  border: 1px rgb(83, 80, 80) solid;
+  padding: 12px;
+}
+main #main_bottom3 {
+  margin-bottom: 50px;
+  background-color: rgb(234, 230, 230);
+  border-bottom: 50px rgb(234, 230, 230) solid;
+}
+
+footer {
+  background-color: white;
+}
+footer .container #footer_row2 p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 20px;
+}
+footer .container #footer_row3 {
+  display: flex;
+  align-items: center;
+}
+footer .container #footer_row3 a .bi-facebook {
+  color: rgb(8, 119, 247);
+  width: 30px;
+}
+footer .container #footer_row3 a .bi-youtube {
+  color: rgb(255, 0, 0);
+  width: 30px;
+}
+footer .container #footer_row3 a .bi-twitter {
+  color: rgb(18, 187, 243);
+  width: 30px;
+}
+footer .container #footer_row3 a .bi-instagram {
+  color: rgb(243, 45, 108);
+  width: 30px;
+}
+footer .container #footer_row3 button {
+  border: 1px rgb(241, 60, 110) solid;
+  border-radius: 50px;
+}
+footer .container-fluid .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(234, 230, 230);
+}/*# sourceMappingURL=style.css.map */

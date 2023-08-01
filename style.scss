@@ -1,0 +1,184 @@
+header{
+    margin: 0px;
+    .container{
+        .row{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            p{
+                display: flex;
+                justify-content: end;
+                align-items: center;
+            }
+            button{
+                border: 1px red solid;
+                border-radius: 40px;
+                display: flex;
+                justify-content: end;
+            }
+            form{
+                input{
+                    border-radius: 40px;
+                }
+            }
+        }
+    }
+    section{
+        background-color: rgba(241, 60, 110, 1);
+        height: auto;
+        .container{
+            .row{
+                h1{
+                    color: white;
+                }
+                p{
+                    color: white;
+                    font-size: 24px;
+                }
+                img{
+                    width: 584px auto;
+                    height: 584px auto;
+                }
+                button{
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    background-color: rgba(241, 60, 110, 1);
+                    color: white;
+                    border: 1px white solid;
+                }
+            }
+        }
+    }
+}
+
+
+main{
+    background-color: rgb(234, 230, 230);
+    height: auto;
+    .container{
+        .row{
+            #minikreslo{
+                background-color: white;
+                border: 10px rgb(234, 230, 230) solid;
+                button{
+                    margin-bottom: 20px;
+                }
+            }
+            h2{
+                margin-top: 80px;
+                margin-bottom: 40px;
+            }
+            h3{
+                display: flex;
+                justify-content: center;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+            }
+            button{
+                background-color: rgba(241, 60, 110, 1);
+                color: white;
+                border-radius: 40px;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 7px;
+                padding-bottom: 7px;
+            }
+            img{
+                margin-top: 20px;
+            }
+        }
+    }
+    #main_bottom1{
+        margin-top: 76px;
+        margin-bottom: 76px;
+        .container{
+            .row{
+                #main_bottom1_section1{
+                    background-color: rgba(241, 60, 110, 1);
+                    padding: 36px;
+                    color: white;
+                    border: 10px rgb(234, 230, 230) solid;
+                    form{
+                        input{
+                            border-radius: 40px;
+                        }
+                    }
+                }
+                #main_bottom1_section2{
+                    background-color: rgba(241, 60, 110, 1);
+                    padding: 36px;
+                    color: white;
+                    border: 10px rgb(234, 230, 230) solid;
+                }
+            }
+        }
+    }
+    #main_bottom2{
+        .container{
+            .row{
+                background-color: white;
+                #impuls_section{
+                    display: flex;
+                    justify-content: center;
+                    border: 1px rgb(83, 80, 80) solid;
+                    padding: 12px;
+                }
+            }
+        }
+    }
+    #main_bottom3{
+        margin-bottom: 50px;
+        background-color: rgb(234, 230, 230);
+        border-bottom: 50px rgb(234, 230, 230) solid;
+    }
+}
+
+
+footer{
+    background-color: white;
+    .container{
+        #footer_row2{
+            p{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                padding-top: 20px;
+            }
+        }
+        #footer_row3{
+            display: flex;
+            align-items: center;
+            a{
+                .bi-facebook{
+                    color: rgb(8, 119, 247);
+                    width: 30px;
+                }
+                .bi-youtube{
+                    color: rgb(255, 0, 0);
+                    width: 30px;
+                }
+                .bi-twitter{
+                    color: rgb(18, 187, 243);
+                    width: 30px;
+                }
+                .bi-instagram{
+                    color: rgb(243, 45, 108);
+                    width: 30px;
+                }
+            }
+            button{
+                border: 1px rgba(241, 60, 110, 1) solid;
+                border-radius: 50px;
+            }
+        }
+    }
+    .container-fluid{
+        .row{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: rgb(234, 230, 230);
+        }
+    }
+}
