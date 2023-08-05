@@ -1,30 +1,46 @@
-header {
-  margin: 0px;
+header #header1 {
+  background-color: rgb(240, 238, 238);
 }
-header .container .row {
+header #header1 ul li .nav-link {
+  color: rgb(0, 0, 0);
+}
+header #header2 .row {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
-header .container .row p {
-  display: flex;
-  justify-content: end;
+header #header2 .row a {
   align-items: center;
-}
-header .container .row button {
-  border: 1px red solid;
-  border-radius: 40px;
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
 }
-header .container .row form input {
+header #header2 .row button {
+  border: 2px rgb(241, 60, 110) solid;
   border-radius: 40px;
+  width: 100%;
+}
+header #header2 .row form input {
+  border-radius: 40px;
+  width: 100%;
+}
+header #header3 ul {
+  margin-bottom: 15px;
+}
+header #header3 ul li .nav-link {
+  color: rgb(0, 0, 0);
 }
 header section {
   background-color: rgb(241, 60, 110);
   height: auto;
 }
+header section .container .row {
+  display: flex;
+  align-items: center;
+}
 header section .container .row h1 {
+  margin-top: 15px;
   color: white;
 }
 header section .container .row p {
@@ -32,10 +48,11 @@ header section .container .row p {
   font-size: 24px;
 }
 header section .container .row img {
-  width: 584px auto;
-  height: 584px auto;
+  width: 100%;
+  height: auto;
 }
 header section .container .row button {
+  margin-bottom: 15px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 10px;
@@ -43,32 +60,29 @@ header section .container .row button {
   background-color: rgb(241, 60, 110);
   color: white;
   border: 1px white solid;
+  border-radius: 50px;
 }
 
 main {
   background-color: rgb(234, 230, 230);
   height: auto;
 }
-main .container .row #minikreslo {
+main #main_bottom0 .container .row h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+main #main_bottom0 .container .row #minikreslo {
   background-color: white;
   border: 10px rgb(234, 230, 230) solid;
 }
-main .container .row #minikreslo button {
+main #main_bottom0 .container .row #minikreslo button {
   margin-bottom: 20px;
 }
-main .container .row h2 {
-  margin-top: 80px;
-  margin-bottom: 40px;
-}
-main .container .row h3 {
+main #main_bottom0 .container .row #minikreslo_div_col {
   display: flex;
   justify-content: center;
 }
-main .container .row p {
-  display: flex;
-  justify-content: center;
-}
-main .container .row button {
+main #main_bottom0 .container .row button {
   background-color: rgb(241, 60, 110);
   color: white;
   border-radius: 40px;
@@ -77,7 +91,7 @@ main .container .row button {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-main .container .row img {
+main #main_bottom0 .container .row img {
   margin-top: 20px;
 }
 main #main_bottom1 {
@@ -113,40 +127,91 @@ main #main_bottom3 {
   background-color: rgb(234, 230, 230);
   border-bottom: 50px rgb(234, 230, 230) solid;
 }
+main #main_bottom3 .container .row h2 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+main #main_bottom3 .container .row #minikreslo {
+  background-color: white;
+  border: 10px rgb(234, 230, 230) solid;
+}
+main #main_bottom3 .container .row #minikreslo button {
+  margin-bottom: 20px;
+}
+main #main_bottom3 .container .row #minikreslo_div_col {
+  display: flex;
+  justify-content: center;
+}
+main #main_bottom3 .container .row button {
+  background-color: rgb(241, 60, 110);
+  color: white;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+main #main_bottom3 .container .row img {
+  margin-top: 20px;
+}
 
 footer {
   background-color: white;
 }
-footer .container #footer_row2 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding-top: 20px;
+footer .container #footer_row1 {
+  margin-bottom: 50px;
 }
-footer .container #footer_row3 {
+footer .container #footer_row1 h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+footer .container #footer_row1 a {
+  text-decoration: none;
+  color: black;
+}
+footer .container #footer_row2 {
   display: flex;
   align-items: center;
 }
-footer .container #footer_row3 a .bi-facebook {
-  color: rgb(8, 119, 247);
+footer .container #footer_row2 a .bi-facebook {
+  color: rgb(60, 146, 244);
   width: 30px;
 }
-footer .container #footer_row3 a .bi-youtube {
-  color: rgb(255, 0, 0);
-  width: 30px;
-}
-footer .container #footer_row3 a .bi-twitter {
-  color: rgb(18, 187, 243);
-  width: 30px;
-}
-footer .container #footer_row3 a .bi-instagram {
+footer .container #footer_row2 a .bi-instagram {
   color: rgb(243, 45, 108);
   width: 30px;
 }
-footer .container #footer_row3 button {
+footer .container #footer_row2 a .bi-youtube {
+  color: rgb(241, 43, 43);
+  width: 30px;
+}
+footer .container #footer_row2 a .bi-telegram {
+  color: rgb(27, 125, 238);
+  width: 30px;
+}
+footer .container #footer_row2 a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+}
+footer .container #footer_row2 button {
   border: 1px rgb(241, 60, 110) solid;
   border-radius: 50px;
+  width: 100%;
+}
+footer .container #footer_row2 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 footer .container-fluid .row {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: rgb(234, 230, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */

@@ -1,34 +1,62 @@
 header{
-    margin: 0px;
-    .container{
-        .row{
-            display: flex;
-            align-items: center;
-            margin-top: 10px;
-            p{
-                display: flex;
-                justify-content: end;
-                align-items: center;
-            }
-            button{
-                border: 1px red solid;
-                border-radius: 40px;
-                display: flex;
-                justify-content: end;
-            }
-            form{
-                input{
-                    border-radius: 40px;
+    // margin: 0px;
+    #header1{
+        background-color: rgb(240, 238, 238);
+        ul{
+            li{
+                .nav-link{
+                    color: rgb(0, 0, 0);
                 }
             }
         }
     }
+    #header2{
+        .row{
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+            a{
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+            }
+            button{
+                border: 2px rgba(241, 60, 110, 1) solid;
+                border-radius: 40px;
+                width: 100%;
+                // display: flex;
+                // justify-content: end;
+            }
+            form{
+                input{
+                    border-radius: 40px;
+                    width: 100%;    
+                }
+            }
+        }
+    }
+    #header3{   
+        ul{
+            margin-bottom: 15px;
+            li{
+                .nav-link{
+                    color: rgb(0, 0, 0);
+                }
+            }
+        }
+    }
+
     section{
         background-color: rgba(241, 60, 110, 1);
         height: auto;
         .container{
             .row{
+                display: flex;
+                align-items: center;
                 h1{
+                    margin-top: 15px;
                     color: white;
                 }
                 p{
@@ -36,10 +64,14 @@ header{
                     font-size: 24px;
                 }
                 img{
-                    width: 584px auto;
-                    height: 584px auto;
+                    width: 100%;
+                    height: auto;
+                    // background-image: url(images/header_fon.png);
+                    // background-repeat: no-repeat;
                 }
                 button{
+                    margin-bottom: 15px;
+
                     padding-left: 40px;
                     padding-right: 40px;
                     padding-top: 10px;
@@ -47,6 +79,7 @@ header{
                     background-color: rgba(241, 60, 110, 1);
                     color: white;
                     border: 1px white solid;
+                    border-radius: 50px;
                 }
             }
         }
@@ -57,38 +90,36 @@ header{
 main{
     background-color: rgb(234, 230, 230);
     height: auto;
-    .container{
-        .row{
-            #minikreslo{
-                background-color: white;
-                border: 10px rgb(234, 230, 230) solid;
-                button{
-                    margin-bottom: 20px;
+    #main_bottom0{
+        .container{
+            .row{
+                h2{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
                 }
-            }
-            h2{
-                margin-top: 80px;
-                margin-bottom: 40px;
-            }
-            h3{
-                display: flex;
-                justify-content: center;
-            }
-            p{
-                display: flex;
-                justify-content: center;
-            }
-            button{
-                background-color: rgba(241, 60, 110, 1);
-                color: white;
-                border-radius: 40px;
-                padding-left: 40px;
-                padding-right: 40px;
-                padding-top: 7px;
-                padding-bottom: 7px;
-            }
-            img{
-                margin-top: 20px;
+                #minikreslo{
+                    background-color: white;
+                    border: 10px rgb(234, 230, 230) solid;
+                    button{
+                        margin-bottom: 20px;
+                    }
+                }
+                #minikreslo_div_col{
+                    display: flex; 
+                    justify-content: center;
+                }
+                button{
+                    background-color: rgba(241, 60, 110, 1);
+                    color: white;
+                    border-radius: 40px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                }
+                img{
+                    margin-top: 20px;
+                }
             }
         }
     }
@@ -134,6 +165,37 @@ main{
         margin-bottom: 50px;
         background-color: rgb(234, 230, 230);
         border-bottom: 50px rgb(234, 230, 230) solid;
+        .container{
+            .row{
+                h2{
+                    margin-top: 50px;
+                    margin-bottom: 40px;
+                }
+                #minikreslo{
+                    background-color: white;
+                    border: 10px rgb(234, 230, 230) solid;
+                    button{
+                        margin-bottom: 20px;
+                    }
+                }
+                #minikreslo_div_col{
+                    display: flex; 
+                    justify-content: center;
+                }
+                button{
+                    background-color: rgba(241, 60, 110, 1);
+                    color: white;
+                    border-radius: 40px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-top: 7px;
+                    padding-bottom: 7px;
+                }
+                img{
+                    margin-top: 20px;
+                }
+            }
+        }
     }
 }
 
@@ -141,36 +203,55 @@ main{
 footer{
     background-color: white;
     .container{
-        #footer_row2{
-            p{
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                padding-top: 20px;
+        #footer_row1{
+            margin-bottom: 50px;
+            h4{
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
             }
         }
-        #footer_row3{
+        #footer_row2{
             display: flex;
             align-items: center;
             a{
                 .bi-facebook{
-                    color: rgb(8, 119, 247);
-                    width: 30px;
-                }
-                .bi-youtube{
-                    color: rgb(255, 0, 0);
-                    width: 30px;
-                }
-                .bi-twitter{
-                    color: rgb(18, 187, 243);
+                    color: rgb(60, 146, 244);
                     width: 30px;
                 }
                 .bi-instagram{
                     color: rgb(243, 45, 108);
                     width: 30px;
                 }
+                .bi-youtube{
+                    color: rgb(241, 43, 43);
+                    width: 30px;
+                }
+                .bi-telegram{
+                    color: rgb(27, 125, 238);
+                    width: 30px;
+                }
+            }
+            a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                color: black;
             }
             button{
                 border: 1px rgba(241, 60, 110, 1) solid;
                 border-radius: 50px;
+                width: 100%;
+            }
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15px;
             }
         }
     }
@@ -179,6 +260,9 @@ footer{
             padding-top: 10px;
             padding-bottom: 10px;
             background-color: rgb(234, 230, 230);
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 }
