@@ -9,6 +9,10 @@ header #header2 .row {
   align-items: center;
   margin-top: 10px;
 }
+header #header2 .row img {
+  width: 100%;
+  height: auto;
+}
 header #header2 .row a {
   align-items: center;
   display: flex;
@@ -110,12 +114,28 @@ main #main_bottom1 .container .row #main_bottom1_section1 {
 }
 main #main_bottom1 .container .row #main_bottom1_section1 form input {
   border-radius: 40px;
+  width: 100%;
+}
+main #main_bottom1 .container .row #main_bottom1_section1 .btn-outline-secondary {
+  width: 100%;
+  border-radius: 50px;
+  border: 1px white solid;
+  background-color: rgb(241, 60, 110);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 main #main_bottom1 .container .row #main_bottom1_section2 {
   background-color: rgb(241, 60, 110);
   padding: 36px;
   color: white;
   border: 10px rgb(234, 230, 230) solid;
+}
+main #main_bottom1 .container .row #main_bottom1_section2 .btn-light {
+  width: 100%;
+  border-radius: 50px;
+  background-color: rgb(241, 60, 110);
+  color: white;
 }
 main #main_bottom2 .container .row {
   background-color: white;
@@ -199,11 +219,17 @@ footer .container #footer_row2 a {
   justify-content: center;
   text-decoration: none;
   color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 footer .container #footer_row2 button {
   border: 2px rgb(241, 60, 110) solid;
   border-radius: 50px;
   width: 100%;
+}
+footer .container #footer_row2 .button_footer {
+  display: flex;
+  justify-content: center;
 }
 footer .container #footer_row2 p {
   display: flex;
