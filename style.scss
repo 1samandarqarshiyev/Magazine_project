@@ -1,6 +1,6 @@
 header{
     // margin: 0px;
-    #header1{
+    .header1{
         background-color: rgb(240, 238, 238);
         ul{
             li{
@@ -10,7 +10,7 @@ header{
             }
         }
     }
-    #header2{
+    .header2{
         .row{
             display: flex;
             align-items: center;
@@ -45,7 +45,7 @@ header{
             }
         }
     }
-    #header3{   
+    .header3{   
         ul{
             margin-bottom: 15px;
             li{
@@ -98,21 +98,21 @@ header{
 main{
     background-color: rgb(234, 230, 230);
     height: auto;
-    #main_bottom0{
+    .main_bottom0{
         .container{
             .row{
                 h2{
                     margin-top: 50px;
                     margin-bottom: 40px;
                 }
-                #minikreslo{
+                .minikreslo{
                     background-color: white;
                     border: 10px rgb(234, 230, 230) solid;
                     button{
                         margin-bottom: 20px;
                     }
                 }
-                #minikreslo_div_col{
+                .minikreslo_div_col{
                     display: flex; 
                     justify-content: center;
                 }
@@ -131,38 +131,44 @@ main{
             }
         }
     }
-    #main_bottom1{
+    .main_bottom1{
         margin-top: 76px;
         margin-bottom: 76px;
         .container{
             .row{
-                #main_bottom1_section1{
+                .main_bottom1_section1{
                     background-color: rgba(241, 60, 110, 1);
                     padding: 36px;
                     color: white;
                     border: 10px rgb(234, 230, 230) solid;
+                    img{
+                        width: 100%;
+                    }
                     form{
                         input{
                             border-radius: 40px;
+                            border: 5px rgba(241, 60, 110, 1) solid;
                             width: 100%;
                         }
                     }
-                    .btn-outline-secondary{
-                        width: 100%;
-                        border-radius: 50px;
-                        border: 1px white solid;
-                        background-color: rgba(241, 60, 110, 1);
+                    button{
                         color: white;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
+                        border: 5px rgba(241, 60, 110, 1) solid;
+                        background-color: rgb(255, 86, 134);
+                        border-radius: 50px;
                     }
                 }
-                #main_bottom1_section2{
+                .main_bottom1_section2{
                     background-color: rgba(241, 60, 110, 1);
                     padding: 36px;
                     color: white;
                     border: 10px rgb(234, 230, 230) solid;
+                    img{
+                        width: 100%;
+                    }
                     .btn-light{
+                        margin-top: 10px;
+                        margin-bottom: 10px;
                         width: 100%;
                         border-radius: 50px;
                         background-color: rgba(241, 60, 110, 1);
@@ -172,11 +178,11 @@ main{
             }
         }
     }
-    #main_bottom2{
+    .main_bottom2{
         .container{
             .row{
                 background-color: white;
-                #impuls_section{
+                .impuls_section{
                     display: flex;
                     justify-content: center;
                     border: 1px rgb(83, 80, 80) solid;
@@ -185,7 +191,7 @@ main{
             }
         }
     }
-    #main_bottom3{
+    .main_bottom3{
         margin-bottom: 50px;
         background-color: rgb(234, 230, 230);
         border-bottom: 50px rgb(234, 230, 230) solid;
@@ -195,14 +201,14 @@ main{
                     margin-top: 50px;
                     margin-bottom: 40px;
                 }
-                #minikreslo{
+                .minikreslo{
                     background-color: white;
                     border: 10px rgb(234, 230, 230) solid;
                     button{
                         margin-bottom: 20px;
                     }
                 }
-                #minikreslo_div_col{
+                .minikreslo_div_col{
                     display: flex; 
                     justify-content: center;
                 }
@@ -227,7 +233,7 @@ main{
 footer{
     background-color: white;
     .container{
-        #footer_row1{
+        .footer_row1{
             margin-bottom: 50px;
             h4{
                 margin-top: 15px;
@@ -238,7 +244,7 @@ footer{
                 color: black;
             }
         }
-        #footer_row2{
+        .footer_row2{
             display: flex;
             align-items: center;
             a{

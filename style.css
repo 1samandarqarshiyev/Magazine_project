@@ -1,19 +1,19 @@
-header #header1 {
+header .header1 {
   background-color: rgb(240, 238, 238);
 }
-header #header1 ul li .nav-link {
+header .header1 ul li .nav-link {
   color: rgb(0, 0, 0);
 }
-header #header2 .row {
+header .header2 .row {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
-header #header2 .row img {
+header .header2 .row img {
   width: 100%;
   height: auto;
 }
-header #header2 .row a {
+header .header2 .row a {
   align-items: center;
   display: flex;
   justify-content: center;
@@ -22,21 +22,21 @@ header #header2 .row a {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-header #header2 .row button {
+header .header2 .row button {
   border: 2px rgb(241, 60, 110) solid;
   border-radius: 40px;
   width: 100%;
 }
-header #header2 .row form input {
+header .header2 .row form input {
   border-radius: 40px;
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-header #header3 ul {
+header .header3 ul {
   margin-bottom: 15px;
 }
-header #header3 ul li .nav-link {
+header .header3 ul li .nav-link {
   color: rgb(0, 0, 0);
 }
 header section {
@@ -75,22 +75,22 @@ main {
   background-color: rgb(234, 230, 230);
   height: auto;
 }
-main #main_bottom0 .container .row h2 {
+main .main_bottom0 .container .row h2 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-main #main_bottom0 .container .row #minikreslo {
+main .main_bottom0 .container .row .minikreslo {
   background-color: white;
   border: 10px rgb(234, 230, 230) solid;
 }
-main #main_bottom0 .container .row #minikreslo button {
+main .main_bottom0 .container .row .minikreslo button {
   margin-bottom: 20px;
 }
-main #main_bottom0 .container .row #minikreslo_div_col {
+main .main_bottom0 .container .row .minikreslo_div_col {
   display: flex;
   justify-content: center;
 }
-main #main_bottom0 .container .row button {
+main .main_bottom0 .container .row button {
   background-color: rgb(241, 60, 110);
   color: white;
   border-radius: 40px;
@@ -99,74 +99,80 @@ main #main_bottom0 .container .row button {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-main #main_bottom0 .container .row img {
+main .main_bottom0 .container .row img {
   margin-top: 20px;
 }
-main #main_bottom1 {
+main .main_bottom1 {
   margin-top: 76px;
   margin-bottom: 76px;
 }
-main #main_bottom1 .container .row #main_bottom1_section1 {
+main .main_bottom1 .container .row .main_bottom1_section1 {
   background-color: rgb(241, 60, 110);
   padding: 36px;
   color: white;
   border: 10px rgb(234, 230, 230) solid;
 }
-main #main_bottom1 .container .row #main_bottom1_section1 form input {
-  border-radius: 40px;
+main .main_bottom1 .container .row .main_bottom1_section1 img {
   width: 100%;
 }
-main #main_bottom1 .container .row #main_bottom1_section1 .btn-outline-secondary {
+main .main_bottom1 .container .row .main_bottom1_section1 form input {
+  border-radius: 40px;
+  border: 5px rgb(241, 60, 110) solid;
   width: 100%;
-  border-radius: 50px;
-  border: 1px white solid;
-  background-color: rgb(241, 60, 110);
+}
+main .main_bottom1 .container .row .main_bottom1_section1 button {
   color: white;
+  border: 5px rgb(241, 60, 110) solid;
+  background-color: rgb(255, 86, 134);
+  border-radius: 50px;
+}
+main .main_bottom1 .container .row .main_bottom1_section2 {
+  background-color: rgb(241, 60, 110);
+  padding: 36px;
+  color: white;
+  border: 10px rgb(234, 230, 230) solid;
+}
+main .main_bottom1 .container .row .main_bottom1_section2 img {
+  width: 100%;
+}
+main .main_bottom1 .container .row .main_bottom1_section2 .btn-light {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-main #main_bottom1 .container .row #main_bottom1_section2 {
-  background-color: rgb(241, 60, 110);
-  padding: 36px;
-  color: white;
-  border: 10px rgb(234, 230, 230) solid;
-}
-main #main_bottom1 .container .row #main_bottom1_section2 .btn-light {
   width: 100%;
   border-radius: 50px;
   background-color: rgb(241, 60, 110);
   color: white;
 }
-main #main_bottom2 .container .row {
+main .main_bottom2 .container .row {
   background-color: white;
 }
-main #main_bottom2 .container .row #impuls_section {
+main .main_bottom2 .container .row .impuls_section {
   display: flex;
   justify-content: center;
   border: 1px rgb(83, 80, 80) solid;
   padding: 12px;
 }
-main #main_bottom3 {
+main .main_bottom3 {
   margin-bottom: 50px;
   background-color: rgb(234, 230, 230);
   border-bottom: 50px rgb(234, 230, 230) solid;
 }
-main #main_bottom3 .container .row h2 {
+main .main_bottom3 .container .row h2 {
   margin-top: 50px;
   margin-bottom: 40px;
 }
-main #main_bottom3 .container .row #minikreslo {
+main .main_bottom3 .container .row .minikreslo {
   background-color: white;
   border: 10px rgb(234, 230, 230) solid;
 }
-main #main_bottom3 .container .row #minikreslo button {
+main .main_bottom3 .container .row .minikreslo button {
   margin-bottom: 20px;
 }
-main #main_bottom3 .container .row #minikreslo_div_col {
+main .main_bottom3 .container .row .minikreslo_div_col {
   display: flex;
   justify-content: center;
 }
-main #main_bottom3 .container .row button {
+main .main_bottom3 .container .row button {
   background-color: rgb(241, 60, 110);
   color: white;
   border-radius: 40px;
@@ -175,45 +181,45 @@ main #main_bottom3 .container .row button {
   padding-top: 7px;
   padding-bottom: 7px;
 }
-main #main_bottom3 .container .row img {
+main .main_bottom3 .container .row img {
   margin-top: 20px;
 }
 
 footer {
   background-color: white;
 }
-footer .container #footer_row1 {
+footer .container .footer_row1 {
   margin-bottom: 50px;
 }
-footer .container #footer_row1 h4 {
+footer .container .footer_row1 h4 {
   margin-top: 15px;
   margin-bottom: 10px;
 }
-footer .container #footer_row1 a {
+footer .container .footer_row1 a {
   text-decoration: none;
   color: black;
 }
-footer .container #footer_row2 {
+footer .container .footer_row2 {
   display: flex;
   align-items: center;
 }
-footer .container #footer_row2 a .bi-facebook {
+footer .container .footer_row2 a .bi-facebook {
   color: rgb(60, 146, 244);
   width: 30px;
 }
-footer .container #footer_row2 a .bi-instagram {
+footer .container .footer_row2 a .bi-instagram {
   color: rgb(243, 45, 108);
   width: 30px;
 }
-footer .container #footer_row2 a .bi-youtube {
+footer .container .footer_row2 a .bi-youtube {
   color: rgb(241, 43, 43);
   width: 30px;
 }
-footer .container #footer_row2 a .bi-telegram {
+footer .container .footer_row2 a .bi-telegram {
   color: rgb(27, 125, 238);
   width: 30px;
 }
-footer .container #footer_row2 a {
+footer .container .footer_row2 a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,16 +228,16 @@ footer .container #footer_row2 a {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-footer .container #footer_row2 button {
+footer .container .footer_row2 button {
   border: 2px rgb(241, 60, 110) solid;
   border-radius: 50px;
   width: 100%;
 }
-footer .container #footer_row2 .button_footer {
+footer .container .footer_row2 .button_footer {
   display: flex;
   justify-content: center;
 }
-footer .container #footer_row2 p {
+footer .container .footer_row2 p {
   display: flex;
   justify-content: center;
   align-items: center;
